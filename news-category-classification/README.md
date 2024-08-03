@@ -22,14 +22,14 @@ This project aims to classify news articles into predefined categories using mac
   - `label_encoder.pkl`: The label encoder for the categories.
   - `vectorizer.pkl`: The TF-IDF vectorizer.
 
-- **News Category Classification - TFIDF + LinearSGD.ipynb**: Jupyter notebook for training and evaluating the model.
+- **News Category Classification - TFIDF + LinearSVM.ipynb**: Jupyter notebook for training and evaluating the model.
 
 
 
 
 ## Training the Model
 
-Open the Jupyter notebook `News Category Classification - TFIDF + LinearSGD.ipynb` and follow the steps to train the model. The notebook includes data preprocessing, model training, and evaluation.
+Open the Jupyter notebook `News Category Classification - TFIDF + LinearSVM.ipynb` and follow the steps to train the model. The notebook includes data preprocessing, model training, and evaluation.
 
 
 ## Inference
