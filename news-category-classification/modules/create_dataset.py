@@ -32,9 +32,9 @@ val, test = train_test_split(val, test_size=0.5, random_state=42, stratify=val['
 # Save the data
 if not os.path.exists('../news_extracted'):
     os.makedirs('../news_extracted')
-train.to_csv('../news_extracted/train.csv', index=False, sep='\t')
-test.to_csv('../news_extracted/test.csv', index=False, sep='\t')
-val.to_csv('../news_extracted/val.csv', index=False, sep='\t')
+train.to_csv('../news_extracted/train.txt', index=False, sep='\t')
+test.to_csv('../news_extracted/test.txt', index=False, sep='\t')
+val.to_csv('../news_extracted/val.txt', index=False, sep='\t')
 
 
 if __name__ == '__main__':

@@ -5,10 +5,10 @@ This project aims to classify news articles into predefined categories using mac
 
 ## Files and Directories
 
-- **model/**: Contains the serialized model, vectorizer, and label encoder.
-  - `classifier.pkl`: The trained classifier.
-  - `label_encoder.pkl`: The label encoder for the categories.
-  - `vectorizer.pkl`: The TF-IDF vectorizer.
+- **news_extracted/**: Contains the extracted datasets.
+  - `train.txt`: Training dataset.
+  - `test.txt`: Test dataset.
+  - `val.txt`: Validation dataset.
 
 - **modules/**: Contains the Python modules for various tasks.
   - `__init__.py`: Initialization file for the module.
@@ -16,13 +16,15 @@ This project aims to classify news articles into predefined categories using mac
   - `create_dataset.py`: Script to create the dataset from raw data.
   - `inference.py`: Script to perform inference using the trained model.
   - `preprocessing.py`: Contains preprocessing functions.
+  
+- **model/**: Contains the serialized model, vectorizer, and label encoder.
+  - `classifier.pkl`: The trained classifier.
+  - `label_encoder.pkl`: The label encoder for the categories.
+  - `vectorizer.pkl`: The TF-IDF vectorizer.
 
 - **News Category Classification - TFIDF + LinearSGD.ipynb**: Jupyter notebook for training and evaluating the model.
 
-- **news_extracted/**: Contains the extracted datasets.
-  - `train.csv`: Training dataset.
-  - `test.csv`: Test dataset.
-  - `val.csv`Validation dataset.
+
 
 
 ## Training the Model
