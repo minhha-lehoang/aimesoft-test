@@ -2,6 +2,17 @@
 
 This folder implements the Minimum Edit Distance (Levenshtein Distance) algorithm and includes unit tests to verify its correctness.
 
+**Complexity**:
+- Time Complexity: `O(m*n)`
+- Space Complexity: `O(m*n)`
+where `m` and `n` are the lengths of the source and target strings, respectively.
+
+**Some applications**:
+- Natural language processing: spell checking, OCR, plagiarism detection, etc.
+- Computational biology: DNA/RNA sequence alignment, protein sequence alignment, etc.
+- Machine translation: aligning source and target sentences.
+- Speech recognition: aligning spoken words with text.
+
 ## Structure
 ```
 min-edit-distance 
